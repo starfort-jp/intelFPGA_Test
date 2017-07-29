@@ -1,0 +1,69 @@
+|Test_mux
+DIN_A[0] => block_mux:mux.DIN_A[0]
+DIN_A[1] => block_mux:mux.DIN_A[1]
+DIN_A[2] => block_mux:mux.DIN_A[2]
+DIN_A[3] => block_mux:mux.DIN_A[3]
+DIN_B[0] => block_mux:mux.DIN_B[0]
+DIN_B[1] => block_mux:mux.DIN_B[1]
+DIN_B[2] => block_mux:mux.DIN_B[2]
+DIN_B[3] => block_mux:mux.DIN_B[3]
+SEL_L => block_mux:mux.SEL_L
+EN_L => block_mux:mux.EN_L
+MCK => block_mux:mux.MCK
+DOUT[0] <= block_mux:mux.DOUT[0]
+DOUT[1] <= block_mux:mux.DOUT[1]
+DOUT[2] <= block_mux:mux.DOUT[2]
+DOUT[3] <= block_mux:mux.DOUT[3]
+
+
+|Test_mux|block_mux:mux
+DIN_A[0] => DIN_Ad[0].DATAIN
+DIN_A[1] => DIN_Ad[1].DATAIN
+DIN_A[2] => DIN_Ad[2].DATAIN
+DIN_A[3] => DIN_Ad[3].DATAIN
+DIN_B[0] => DIN_Bd[0].DATAIN
+DIN_B[1] => DIN_Bd[1].DATAIN
+DIN_B[2] => DIN_Bd[2].DATAIN
+DIN_B[3] => DIN_Bd[3].DATAIN
+SEL_L => DOUTx.OUTPUTSELECT
+SEL_L => DOUTx.OUTPUTSELECT
+SEL_L => DOUTx.OUTPUTSELECT
+SEL_L => DOUTx.OUTPUTSELECT
+EN_L => DOUTx[0].ENA
+EN_L => DOUTd[0].ENA
+EN_L => DIN_Ad[3].ENA
+EN_L => DIN_Ad[2].ENA
+EN_L => DIN_Ad[1].ENA
+EN_L => DIN_Ad[0].ENA
+EN_L => DIN_Bd[3].ENA
+EN_L => DIN_Bd[2].ENA
+EN_L => DIN_Bd[1].ENA
+EN_L => DIN_Bd[0].ENA
+EN_L => DOUTd[3].ENA
+EN_L => DOUTd[2].ENA
+EN_L => DOUTd[1].ENA
+EN_L => DOUTx[3].ENA
+EN_L => DOUTx[2].ENA
+EN_L => DOUTx[1].ENA
+MCK => DOUTx[0].CLK
+MCK => DOUTx[1].CLK
+MCK => DOUTx[2].CLK
+MCK => DOUTx[3].CLK
+MCK => DOUTd[0].CLK
+MCK => DOUTd[1].CLK
+MCK => DOUTd[2].CLK
+MCK => DOUTd[3].CLK
+MCK => DIN_Bd[0].CLK
+MCK => DIN_Bd[1].CLK
+MCK => DIN_Bd[2].CLK
+MCK => DIN_Bd[3].CLK
+MCK => DIN_Ad[0].CLK
+MCK => DIN_Ad[1].CLK
+MCK => DIN_Ad[2].CLK
+MCK => DIN_Ad[3].CLK
+DOUT[0] <= DOUTd[0].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[1] <= DOUTd[1].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[2] <= DOUTd[2].DB_MAX_OUTPUT_PORT_TYPE
+DOUT[3] <= DOUTd[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

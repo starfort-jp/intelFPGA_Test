@@ -1,0 +1,22 @@
+# vsim -gui -l msim_transcript work.block_core_tb(block_core_sim) 
+# Start time: 23:58:41 on Jul 13,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.block_core_tb(block_core_sim)
+# Loading work.block_core(block_core_architecture)
+add wave -position end  sim:/block_core_tb/CARRY_tb
+add wave -position end  sim:/block_core_tb/CLR_L_tb
+add wave -position end  sim:/block_core_tb/DIN_tb
+add wave -position end  sim:/block_core_tb/DOUT_tb
+add wave -position end  sim:/block_core_tb/EN_L_tb
+add wave -position end  sim:/block_core_tb/LD_L_tb
+add wave -position end  sim:/block_core_tb/MCK_tb
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /block_core_tb/unit1
+quit
+# End time: 23:59:35 on Jul 13,2017, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1

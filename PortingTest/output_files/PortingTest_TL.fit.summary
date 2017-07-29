@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Jul 25 21:58:48 2017
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Revision Name : PortingTest_TL
+Top-level Entity Name : PortingTest_TL
+Family : MAX 10
+Device : 10M02SCE144A7G
+Timing Models : Final
+Total logic elements : 29 / 2,304 ( 1 % )
+    Total combinational functions : 18 / 2,304 ( < 1 % )
+    Dedicated logic registers : 20 / 2,304 ( < 1 % )
+Total registers : 20
+Total pins : 23 / 101 ( 23 % )
+Total virtual pins : 0
+Total memory bits : 0 / 110,592 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 32 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0

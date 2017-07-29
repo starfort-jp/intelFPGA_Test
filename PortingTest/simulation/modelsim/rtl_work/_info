@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/simulation/modelsim
+Eblock_adder
+Z1 w1500985838
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_adder.vhd
+Z7 FC:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_adder.vhd
+l0
+L30
+V@NT8EH5iS@WRcnWNSn_3f2
+!s100 0IB_o9aaYKPNM7<^CnklF0
+Z8 OV;C;10.5b;63
+31
+Z9 !s110 1501057804
+!i10b 1
+Z10 !s108 1501057804.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_adder.vhd|
+Z12 !s107 C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_adder.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Ablock_adder_architecture
+R2
+R3
+R4
+R5
+DEx4 work 11 block_adder 0 22 @NT8EH5iS@WRcnWNSn_3f2
+l55
+L47
+Vf6LOf8f1F=O4zKSae=I4j3
+!s100 CaR2YK1lLVTa7>YMKI=:B3
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eblock_cnt
+Z15 w1500979742
+R2
+R3
+R4
+R5
+R0
+Z16 8C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_cnt.vhd
+Z17 FC:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_cnt.vhd
+l0
+L30
+Vg`R9^zfc:LkfZ0a5KCIHZ1
+!s100 ]Y;GImQ<^NB[2[IC[8C0P3
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_cnt.vhd|
+Z19 !s107 C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_cnt.vhd|
+!i113 1
+R13
+R14
+Ablock_cnt_architecture
+R2
+R3
+R4
+R5
+DEx4 work 9 block_cnt 0 22 g`R9^zfc:LkfZ0a5KCIHZ1
+l51
+L48
+VaMcLcXoBG]=E>V=C?eglU2
+!s100 glCW3eNhcV_gLY1WchSKn1
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eblock_mux
+Z20 w1500981065
+R2
+R3
+R4
+R5
+R0
+Z21 8C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_mux.vhd
+Z22 FC:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_mux.vhd
+l0
+L30
+VF2kd^m][6mo;lC1_]07mK3
+!s100 YGQ:J@<mAo7;H@eZ]0?Fd3
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_mux.vhd|
+Z24 !s107 C:/Users/Hidemichi_Gotou/Documents/intelFPGA_lite/17.0/Test001/block_mux.vhd|
+!i113 1
+R13
+R14
+Ablock_mux_architecture
+R2
+R3
+R4
+R5
+DEx4 work 9 block_mux 0 22 F2kd^m][6mo;lC1_]07mK3
+l56
+L48
+VDLag<miO?:mVOM4@?diza1
+!s100 mHf6UBmZVL5?0EV?ENBPI0
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 1
+R13
+R14

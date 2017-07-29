@@ -1,0 +1,463 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 16 8 184 24)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "MCK" (rect 5 0 28 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 176 184 192)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "DIN[3..0]" (rect 5 0 45 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 32 184 48)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "EN_L" (rect 5 0 29 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 128 184 144)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLR_L" (rect 5 0 36 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 152 184 168)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "LD_L" (rect 5 0 30 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 456 184 472)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "SEL_L" (rect 5 0 36 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 480 184 496)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "DIN_A[3..0]" (rect 5 0 58 17)(font "Intel Clear" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 16 504 184 520)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "DIN_B[3..0]" (rect 5 0 64 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 824 80 1000 96)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "CARRY" (rect 90 0 130 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 864 264 1052 280)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "DOUT_ADDER[4..0]" (rect 90 0 182 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(block
+	(rect 264 64 432 280)
+	(text "block_cnt" (rect 5 5 61 24)(font "Intel Clear" (font_size 8)))	(text "inst_cnt" (rect 5 196 41 213)(font "Intel Clear" ))	(block_io "MCK" (input))
+	(block_io "DIN[3..0]" (input))
+	(block_io "EN_L" (input))
+	(block_io "CLR_L" (input))
+	(block_io "LD_L" (input))
+	(block_io "CARRY" (output))
+	(block_io "DOUT[3..0]" (output))
+	(mapper
+		(pt 0 96)
+		(input)
+		(mapping "LD_L" "LD" )
+		(annotation_block (mapping)(rect 128 240 210 278))
+	)
+	(mapper
+		(pt 0 72)
+		(input)
+		(mapping "CLR_L" "CLR" )
+		(annotation_block (mapping)(rect 128 200 214 238))
+	)
+	(mapper
+		(pt 0 48)
+		(input)
+		(mapping "EN_L" "EN" )
+		(annotation_block (mapping)(rect 136 88 218 126))
+	)
+	(mapper
+		(pt 0 24)
+		(input)
+		(mapping "MCK" "MCK" )
+		(annotation_block (mapping)(rect 136 48 218 86))
+	)
+	(mapper
+		(pt 0 120)
+		(input)
+		(mapping "DIN[3..0]" "DIN_CNT[3..0]" )
+		(annotation_block (mapping)(rect 80 280 216 320))
+	)
+	(mapper
+		(pt 168 24)
+		(output)
+		(mapping "CARRY" "CARRY" )
+		(annotation_block (mapping)(rect 448 40 537 78))
+	)
+	(mapper
+		(pt 168 48)
+		(output)
+		(mapping "DOUT[3..0]" "DOUT_CNT[3..0]" )
+		(annotation_block (mapping)(rect 448 128 608 168))
+	)
+)
+(block
+	(rect 264 392 432 608)
+	(text "block_mux" (rect 5 5 68 24)(font "Intel Clear" (font_size 8)))	(text "inst_mux" (rect 5 196 47 213)(font "Intel Clear" ))	(block_io "DIN_A[3..0]" (input))
+	(block_io "DIN_B[3..0]" (input))
+	(block_io "SEL_L" (input))
+	(block_io "EN_L" (input))
+	(block_io "MCK" (input))
+	(block_io "DOUT[3..0]" (output))
+	(mapper
+		(pt 0 24)
+		(input)
+		(mapping "MCK" "MCK" )
+		(annotation_block (mapping)(rect 128 328 216 368))
+	)
+	(mapper
+		(pt 0 48)
+		(input)
+		(mapping "EN_L" "EN" )
+		(annotation_block (mapping)(rect 128 368 216 408))
+	)
+	(mapper
+		(pt 0 72)
+		(input)
+		(mapping "SEL_L" "SEL" )
+		(annotation_block (mapping)(rect 128 408 216 448))
+	)
+	(mapper
+		(pt 0 96)
+		(input)
+		(mapping "DIN_A[3..0]" "DIN_MUXA[3..0]" )
+		(annotation_block (mapping)(rect 88 504 248 544))
+	)
+	(mapper
+		(pt 0 120)
+		(input)
+		(mapping "DIN_B[3..0]" "DIN_MUXB[3..0]" )
+		(annotation_block (mapping)(rect 88 544 248 584))
+	)
+	(mapper
+		(pt 168 192)
+		(output)
+		(mapping "DOUT[3..0]" "DOUT_MUX[3..0]" )
+		(annotation_block (mapping)(rect 448 600 616 640))
+	)
+)
+(block
+	(rect 600 224 768 440)
+	(text "block_adder" (rect 5 5 79 24)(font "Intel Clear" (font_size 8)))	(text "inst_adder" (rect 5 196 54 213)(font "Intel Clear" ))	(block_io "DIN_A[3..0]" (input))
+	(block_io "DIN_B[3..0]" (input))
+	(block_io "EN_L" (input))
+	(block_io "MCK" (input))
+	(block_io "DOUT[4..0]" (output))
+	(mapper
+		(pt 0 24)
+		(input)
+		(mapping "MCK" "MCK" )
+		(annotation_block (mapping)(rect 456 176 544 216))
+	)
+	(mapper
+		(pt 0 48)
+		(input)
+		(mapping "EN_L" "EN" )
+		(annotation_block (mapping)(rect 456 216 544 256))
+	)
+	(mapper
+		(pt 0 72)
+		(input)
+		(mapping "DIN_A[3..0]" "DOUT_CNT[3..0]" )
+		(annotation_block (mapping)(rect 368 304 528 344))
+	)
+	(mapper
+		(pt 0 96)
+		(input)
+		(mapping "DIN_B[3..0]" "DOUT_MUX[3..0]" )
+		(annotation_block (mapping)(rect 368 344 536 384))
+	)
+	(mapper
+		(pt 168 48)
+		(output)
+		(mapping "DOUT[4..0]" "DOUT_ADDER[4..0]" )
+		(annotation_block (mapping)(rect 784 288 960 328))
+	)
+)
+(connector
+	(pt 584 16)
+	(pt 584 248)
+)
+(connector
+	(pt 584 248)
+	(pt 600 248)
+)
+(connector
+	(pt 184 16)
+	(pt 248 16)
+)
+(connector
+	(pt 248 16)
+	(pt 584 16)
+)
+(connector
+	(pt 248 416)
+	(pt 264 416)
+)
+(connector
+	(pt 248 16)
+	(pt 248 88)
+)
+(connector
+	(pt 248 88)
+	(pt 248 416)
+)
+(connector
+	(pt 568 40)
+	(pt 568 272)
+)
+(connector
+	(pt 184 40)
+	(pt 232 40)
+)
+(connector
+	(pt 232 40)
+	(pt 568 40)
+)
+(connector
+	(pt 232 440)
+	(pt 264 440)
+)
+(connector
+	(pt 232 40)
+	(pt 232 112)
+)
+(connector
+	(pt 232 112)
+	(pt 232 440)
+)
+(connector
+	(pt 568 272)
+	(pt 600 272)
+)
+(connector
+	(text "LD" (rect 194 144 206 161)(font "Intel Clear" ))
+	(pt 184 160)
+	(pt 264 160)
+)
+(connector
+	(text "CLR" (rect 194 120 214 137)(font "Intel Clear" ))
+	(pt 184 136)
+	(pt 264 136)
+)
+(connector
+	(text "EN" (rect 242 96 254 113)(font "Intel Clear" ))
+	(pt 232 112)
+	(pt 264 112)
+)
+(connector
+	(text "MCK" (rect 248 72 271 89)(font "Intel Clear" ))
+	(pt 248 88)
+	(pt 264 88)
+)
+(connector
+	(text "DIN_CNT[3..0]" (rect 194 168 260 185)(font "Intel Clear" ))
+	(pt 184 184)
+	(pt 264 184)
+	(bus)
+)
+(connector
+	(text "SEL" (rect 194 448 211 465)(font "Intel Clear" ))
+	(pt 184 464)
+	(pt 264 464)
+)
+(connector
+	(text "DIN_MUXA[3..0]" (rect 194 472 270 489)(font "Intel Clear" ))
+	(pt 184 488)
+	(pt 264 488)
+	(bus)
+)
+(connector
+	(text "DIN_MUXB[3..0]" (rect 194 496 270 513)(font "Intel Clear" ))
+	(pt 184 512)
+	(pt 264 512)
+	(bus)
+)
+(connector
+	(text "DOUT_ADDER[4..0]" (rect 778 256 870 273)(font "Intel Clear" ))
+	(pt 864 272)
+	(pt 768 272)
+	(bus)
+)
+(connector
+	(text "DOUT_CNT[3..0]" (rect 442 96 519 113)(font "Intel Clear" ))
+	(pt 552 112)
+	(pt 432 112)
+	(bus)
+)
+(connector
+	(pt 552 112)
+	(pt 552 296)
+	(bus)
+)
+(connector
+	(pt 552 296)
+	(pt 600 296)
+	(bus)
+)
+(connector
+	(text "DOUT_MUX[3..0]" (rect 442 568 523 585)(font "Intel Clear" ))
+	(pt 552 584)
+	(pt 432 584)
+	(bus)
+)
+(connector
+	(pt 552 584)
+	(pt 552 320)
+	(bus)
+)
+(connector
+	(pt 552 320)
+	(pt 600 320)
+	(bus)
+)
+(connector
+	(text "CARRY" (rect 466 72 501 89)(font "Intel Clear" ))
+	(pt 432 88)
+	(pt 824 88)
+)
+(junction (pt 248 16))
+(junction (pt 248 88))
+(junction (pt 232 40))
+(junction (pt 232 112))

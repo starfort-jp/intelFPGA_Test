@@ -1,0 +1,69 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "DOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MCK",
+					"strict" : false
+				},
+				{
+					"name" : "EN_L",
+					"strict" : false
+				},
+				{
+					"name" : "SEL_L",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_B[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_A[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_B[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_A[1]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_B[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_A[2]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_B[3]",
+					"strict" : false
+				},
+				{
+					"name" : "DIN_A[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
